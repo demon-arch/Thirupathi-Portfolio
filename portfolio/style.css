@@ -1,0 +1,60 @@
+
+h1{
+    color:yellow;
+    text-align: center;
+}
+.header{
+    background-color: #000;
+    justify-content:space-evenly;
+    max-width: 100%;
+
+nav{
+    display: flex; 
+    justify-content: end;
+    display: flex;
+        align-items: center;
+        justify-content:space-evenly;
+    }
+        
+    
+        
+    
+        
+
+    a{
+        padding:15px;
+        margin:50px;
+        color:white;
+        width:100px;
+        display: flex;
+    }
+
+
+p{
+    color:aliceblue;
+    text-align: center;
+}
+input[type=button]{
+    border: 10px;
+     font-family: Georgia, 'Times New Roman', Times, serif;
+     background-color: #ffbd39;
+     margin: 0%auto;
+     color: #000;
+     display: inline;
+}
+
+main{
+    background-color:;
+}
+footer{
+
+}
+.chandhru{
+
+}
+.he{
+    background-color: white;
+}
+#about{
+    display: flex;
+}
