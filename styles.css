@@ -10,73 +10,73 @@ body{
 header{
     display: flex;
     justify-content: space-between;
-  
+    color: white;
+    position: sticky;
+    top:0;
+    z-index: 20;
+    padding: 10px 100px;
+    align-items: center;
+    background-color:#000000;
 }
-header> h2{
-    font-size: 50px;
-    margin-top: 0px;
+.logo{
+    font-size: 40px;
 }
-.header{
-    display: flex;
-    justify-content: space-between;
-    
-}
+
+
 nav{
-    position: fixed;
-    top:0px;
-    right: 0px;
-    left:0px;
-   background-color:#000000;
-   right: 200px;
+    /* position: sticky;
+    top: 0; */
    word-spacing: 10px;
-   font-size: 30px; 
    color: white; 
-   z-index: 10;
+   /* z-index: 10; */
    display: flex;
-    justify-content: space-around;
+justify-content: space-around;
 }
 nav a{
+    display: inline-block;
+    margin-left: 10px;
     text-decoration: none;
     color: white;
+    font-size: 20px;
 }
 nav a:hover{
     text-decoration: underline;
     color: #ffbd39;
 }
+.home{
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    width: 100%;
+    align-items: center;
+    color: white;
+}
+.left{
+    width: 40%;
+}
 .image{
-   position: absolute;
-   right: 100px;
-   top: 70px;
+    width: 100%;
+    height: 70%;
+    border-radius: 50px;
 }
 .me{
     font-size: 40px;
-    position: absolute;
-    left: 300px;
-    top: 250px;
     color: white;
 }
 .ts{
     font-size: 50px;
-    position: absolute;
-    left: 100px;
-    top: 300px;
     color: #ffbd39; 
 }
 .wd{
     font-size: 30px;
-    position: absolute;
-    left:290px ;
-    top: 380px;
     font-weight: 500px;
     color:white;
 }
 .hm{
     font-size: 20px;
-    position: absolute;
-    left:360px ;
-    top: 450px;
     background-color: #ffbd39;
     color:black;
+    width: fit-content;
     border-radius: 50px;
     padding: 10px; 
     color: black;
@@ -89,19 +89,21 @@ nav a:hover{
     font-size: 50px;
     font-weight: 100px;
     color: white;
+    font-family: Arial, Helvetica, sans-serif;
 }
 .para{
   position: absolute;
   top:1000px;
   right: 60px;
-  font-size: 30px;
+  font-size: 25px;
   color: white;
+  font-family: Arial, Helvetica, sans-serif;
 }
 .address{
     position: absolute;
     top:1150px;
     right: 30px;
-    font-size: 30px;
+    font-size:25px;
     font-family: Arial, Helvetica, sans-serif;
     color: white;
 }
