@@ -51,6 +51,8 @@ header {
     color: white;
     font-size: 24px;
     font-weight: 800;
+   
+    
 }
 
 nav {
@@ -78,11 +80,11 @@ a::after {
     transition: 0.3s;
 }
 
-a:hover::after {
+*
+ a:hover::after {
     width: 100%;
     left: 0px;
-}
-
+} 
 .logo-nav {
     display: flex;
     justify-content: space-between;
@@ -142,6 +144,7 @@ a:hover::after {
     font-size: 54px;
     color: white;
     font-weight: 600;
+
 }
 
 .img-about {
@@ -205,13 +208,22 @@ a:hover::after {
     margin: 20px 0;
     padding: 10px;
 }
+.ul{
+  padding: 100px;
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+
+    
+}
 
 .bar {
     background-color: #22211f;
-    display: block;
+     display: inline-block;
     height: 20px;
-    width: 50vw;
+    width: 30vw;
     text-decoration: none;
+ 
     text-align: center;
     border: 1px solid rgba(7, 7, 7, 0.3);
     border-radius: 10px;
@@ -240,6 +252,7 @@ a:hover::after {
     width: 90%;
     animation: html 3s;
 }
+
 
 .css {
     width: 90%;

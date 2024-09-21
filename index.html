@@ -2,6 +2,7 @@
 <html lang="en">
 
 <head>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
@@ -44,10 +45,10 @@
         </section>
         <section class="section-2" id="about">
             <div class="img-about">
-                <div class="img-div">
-                    <img src="thiru.jpeg" alt="">
+                <div class="img-div" data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="2000">>
+                    <img src="thiru-removebg-preview.png" alt="">
                 </div>
-                <div class="about">
+                <div class="about" data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="2000">>
                     <h1 class="z-index">About Me</h1>
                     <p class="p1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni<br> accusantium
                         itaque! Eveniet est hic tenetur aspernatur molestias<br> quos repellat nesciunt, eligendi quia
@@ -72,24 +73,29 @@
                 <div>
                     <h1>My Skills</h1>
                     <p>Chennai, India is known for many things, including beaches, temples, and shopping</p>
-                    <ul>
-                    <li>
-                        <h3>html</h3>
-                        <span class="bar"><span class="html"></span></span>
-                    </li>
-                    <li>
-                        <h3>css</h3>
-                        <span class="bar"><span class="css"></span></span>
-                    </li>
-                    <li>
-                        <h3>js</h3>
-                        <span class="bar"><span class="js"></span></span>
-                    </li>
-                    <li>
-                        <h3>python</h3>
-                        <span class="bar"><span class="python"></span></span>
-                    </li>
-                </ul>
+                    <ul class="ul">
+                        <div class="htcss">
+                            <li>
+                                <h3>html</h3>
+
+                                <span class="bar"><span class="html"></span></span>
+                            </li>
+                            <li>
+                                <h3>css</h3>
+                                <span class="bar"><span class="css"></span></span>
+                            </li>
+                        </div>
+                        <div class="jsbs">
+                            <li>
+                                <h3>js</h3>
+                                <span class="bar"><span class="js"></span></span>
+                            </li>
+                            <li>
+                                <h3>bs</h3>
+                                <span class="bar"><span class="python"></span></span>
+                            </li>
+                        </div>
+                    </ul>
                 </div>
 
 
@@ -214,6 +220,11 @@
         <div class="copy">Copyright ©2024 All rights reserved | This template is made with<i
                 class="fa-solid fa-heart"></i> by Colorlib</div>
     </footer>
+
 </body>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+    AOS.init();
+</script>
 
 </html>
